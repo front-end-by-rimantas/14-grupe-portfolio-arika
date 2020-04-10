@@ -4,14 +4,14 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 [![HitCount](http://hits.dwyl.com/front-end-by-rimantas/14-grupe-portfolio-arika.svg)](http://hits.dwyl.com/front-end-by-rimantas/14-grupe-portfolio-arika)
 
-# Karim
-### 12 group - portfolio project
+# Arika
+### 14 group - portfolio project
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
 Site published at https://front-end-by-rimantas.github.io/14-grupe-portfolio-arika/index.html
 
-Design: [Kareem (Karmen) template](https://karmen-v2-html5-portfolio-template.netlify.com/karmen-html5-portfolio-theme/minified/)
+Design: [Arika template](http://adhyasoft.com/themeforest/arika/arika/index-01.html)
 
 ### Authors
-[Paulius, Paulius](https://github.com/belauzas)
+[ Paulius Prudnikovas, Paulius Latvenas, Mindaugas Milašauskas, Aidas Mironas](https://github.com/belauzas)
