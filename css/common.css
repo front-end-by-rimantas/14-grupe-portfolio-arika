@@ -26,3 +26,10 @@ h2 {
     border-radius: 3px;
 
 }
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;   
+    color:#828282;
+    margin-bottom: 10px;
+}
