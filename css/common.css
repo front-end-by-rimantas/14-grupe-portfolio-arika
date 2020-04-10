@@ -13,3 +13,16 @@ h2 {
     font-size: 40px;
     line-height: 40px;
 }
+
+.button-red{
+    display: inline-block;
+    padding: 12px 24px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: var(--color-button-red);
+    color: #fff;
+    border-radius: 3px;
+
+}
