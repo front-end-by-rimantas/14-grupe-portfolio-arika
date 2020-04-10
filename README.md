@@ -2,7 +2,7 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/belauzas/HTML5-website-template/blob/master/LICENSE.md)
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-[![HitCount](http://hits.dwyl.com/front-end-by-rimantas/14-grupe-portfolio-arika.svg)](http://hits.dwyl.com/front-end-by-rimantas/12-grupe-portfolio)
+[![HitCount](http://hits.dwyl.com/front-end-by-rimantas/14-grupe-portfolio-arika.svg)](http://hits.dwyl.com/front-end-by-rimantas/14-grupe-portfolio-arika)
 
 # Karim
 ### 12 group - portfolio project
@@ -14,4 +14,4 @@ Site published at https://front-end-by-rimantas.github.io/14-grupe-portfolio-ari
 Design: [Kareem (Karmen) template](https://karmen-v2-html5-portfolio-template.netlify.com/karmen-html5-portfolio-theme/minified/)
 
 ### Authors
-[Rimantas](https://github.com/belauzas)
+[Paulius, Paulius](https://github.com/belauzas)
