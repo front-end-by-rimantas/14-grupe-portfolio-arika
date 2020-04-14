@@ -19,7 +19,7 @@ h2 {
 
     .service {
         display: inline-block;
-        width: calc(100%/3);
+        width: calc(100% / 3);
         text-align: center;
     }
         .service i {
