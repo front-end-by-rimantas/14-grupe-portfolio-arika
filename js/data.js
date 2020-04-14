@@ -20,12 +20,12 @@ const services = [
         description: 'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.'
     },
     {
-        icon: 'layers',
+        icon: 'paperclip',
         title: 'Logo & Identity',
         description: 'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.'
     },
     {
-        icon: 'hotairballoon',
+        icon: 'plane',
         title: 'Graphics Design',
         description: 'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.'
     },
@@ -35,7 +35,7 @@ const services = [
         description: 'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.'
     },
     {
-        icon: 'tools',
+        icon: 'mobile',
         title: 'Advanced Options',
         description: 'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.'
     },
