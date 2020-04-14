@@ -52,3 +52,10 @@ p {
     margin-bottom: 10px;
 }
 
+.underline{
+    background-image: linear-gradient(#7ef6e7, #81f1e7);
+    /* background-color: aquamarine; */
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+}
