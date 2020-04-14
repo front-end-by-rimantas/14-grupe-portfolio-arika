@@ -5,11 +5,51 @@
 .bg-grey {
     background-color: var(--color-primary-grey);
 }
-
-h2 {
+h1, h2, h3{
     display: inline-block;
     width: 100%;
+    font-family: "Dosis", sans-serif;
+}
+h2 {
     text-align: center;
     font-size: 40px;
     line-height: 40px;
+}
+h3{
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 14px;
+    font-weight: 600;
+}
+h4{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+
+
+.button-red{
+    display: inline-block;
+    padding: 12px 24px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: var(--color-button-red);
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: unset;
+    text-transform: uppercase;
+}
+.button-red:hover{
+    background-color: black;
+    box-shadow: var(--color-button-red) 0px 10px 20px -5px;
+    transition: 2s;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;   
+    color:#828282;
+    margin-bottom: 10px;
 }
