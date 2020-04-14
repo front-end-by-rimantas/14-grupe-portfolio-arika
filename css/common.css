@@ -44,25 +44,6 @@ h4{
     margin-bottom: 14px;
 }
 
-
-.button-red{
-    display: inline-block;
-    padding: 12px 24px;
-    text-align: center;
-    line-height: 18px;
-    font-size: 12px;
-    font-weight: 500;
-    background-color: var(--color-button-red);
-    color: #fff;
-    border-radius: 3px;
-    text-decoration: unset;
-    text-transform: uppercase;
-}
-.button-red:hover{
-    background-color: black;
-    box-shadow: var(--color-button-red) 0px 10px 20px -5px;
-    transition: 2s;
-}
 p {
     font-size: 16px;
     font-weight: 400;
@@ -70,3 +51,4 @@ p {
     color:#828282;
     margin-bottom: 10px;
 }
+
