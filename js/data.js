@@ -77,7 +77,7 @@ const blogs = [
         },
         header: 'Make your Marketing website',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        link: 'Read more'
+        link: 'READ MORE'
     },
     {
         img:'blog-2.jpg',
@@ -89,7 +89,7 @@ const blogs = [
         },
         header: 'Make your Marketing website',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        link: 'Read more'
+        link: 'READ MORE'
     },
     {
         img:'blog-3.jpg',
@@ -101,7 +101,7 @@ const blogs = [
         },
         header: 'Make your Marketing website',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        link: 'Read more'
+        link: 'READ MORE'
     }
 ]
 
