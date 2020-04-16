@@ -55,11 +55,30 @@ function renderBlogs (blogList) {
     for ( let i=0; i<blogList.length; i++ ) {
   
         const blogs = blogList[i];
-        HTML += `<div class= "blogs">
-                <a href ="# class = "photo">
-                <img src=".img/blog-1.img" alt="User photo">
+        HTML += `<div class="blocks">
+                <a href = "#">
+                    <img id = "foto" src="./img/${blogs.img}" alt= "Blogs photo">
                 </a>
-                </div>`
+                <p>
+                    ${blogs.date.day}
+                    ${blogs.date.month}
+                    ${blogs.date.year}
+                    ${blogs.date.design}
+                </p>
+                <div>
+                    <a href="#">
+                        <h4>${blogs.header}</h4>
+                    <a/>
+                    <p>${blogs.text}</p>
+                </div>
+                    <a href ="#">
+                        <p class="link">${blogs.link}<p/>
+                    </a>
+            </div>`;
+
+
+
+
     }
 
 
