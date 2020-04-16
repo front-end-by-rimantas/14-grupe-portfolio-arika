@@ -7,7 +7,7 @@ img{
     display: inline-block;
     width: 100%;
     float: right;
-    padding-top: 160px;
+    padding-top: 120px;
     padding-left: 20px;
 }
     .row > .aboutImg > img{
@@ -22,7 +22,7 @@ img{
    
 @media ( max-width: 1300px ) {
     .container >.row .aboutText{
-        padding-top: 90px;
+        padding-top: 60px;
     }
 }
 @media ( max-width: 1100px ) {
