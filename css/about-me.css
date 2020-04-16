@@ -22,7 +22,7 @@ img{
    
 @media ( max-width: 1300px ) {
     .container >.row .aboutText{
-        padding-top: 100px;
+        padding-top: 90px;
     }
 }
 @media ( max-width: 1100px ) {
