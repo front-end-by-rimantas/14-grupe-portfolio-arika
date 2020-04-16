@@ -7,7 +7,8 @@ img{
     display: inline-block;
     width: 100%;
     float: right;
-    padding-top: 90px;
+    padding-top: 160px;
+    padding-left: 20px;
 }
     .row > .aboutImg > img{
         width: 100%;
@@ -19,6 +20,11 @@ img{
         margin-left: 12px;
     }
    
+@media ( max-width: 1300px ) {
+    .container >.row .aboutText{
+        padding-top: 90px;
+    }
+}
 @media ( max-width: 1100px ) {
     .container >.row .aboutText{
         padding-top: 0px;
