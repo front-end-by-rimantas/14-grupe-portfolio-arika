@@ -1,7 +1,6 @@
 .bg-primary {
     background-color: var(--color-primary-white);
 }
-
 .bg-grey {
     background-color: var(--color-primary-grey);
 }
@@ -17,7 +16,6 @@ h2 {
     line-height: 1.4;
     margin-bottom: 10px;
 }
-
     .service {
             display: inline-block;
             width: 310px;
@@ -84,9 +82,6 @@ p {
     background-position: 0 bottom;
     font-family: unset;
 }
-
-
-
 
 @media ( max-width: 1300px ) {   
 }
