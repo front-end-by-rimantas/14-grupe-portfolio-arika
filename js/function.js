@@ -1,3 +1,4 @@
+"use strict";
 //---------------------------HEADER---------------------------
 
 
@@ -19,7 +20,7 @@ function renderServices( serviceList ) {
         const service = serviceList[i];
         HTML += `<div class="service">
                     <i class="fa fa-${service.icon}"></i>
-                    <h3>${service.title}</h3>
+                    <h5>${service.title}</h5>
                     <p>${service.description}</p>
                 </div>`
     }
