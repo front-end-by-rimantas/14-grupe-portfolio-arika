@@ -45,7 +45,26 @@ function renderServices( serviceList ) {
 
 //---------------------------BLOGS---------------------------
 
+function renderBlogs (blogList) {
+     
+    let HTML = '';
+  
+  
 
+    for ( let i=0; i<blogList.length; i++ ) {
+  
+        const blogs = blogList[i];
+        HTML += `<div class= "blogs">
+                <a href ="# class = "photo">
+                <img src=".img/blog-1.img" alt="User photo">
+                </a>
+                </div>`
+    }
+
+
+    return document.querySelector('#blogs').innerHTML = HTML;
+    
+  }
 
 //---------------------------GET IN TOUCH---------------------------
 

@@ -63,7 +63,44 @@ const services = [
 
 //---------------------------BLOGS---------------------------
 
-
+const blogs = [
+    {
+        img:'blog-1.jpg',
+        date: {
+            day: '01',
+            month: 'Mar',
+            year: '2019',
+            design: 'Design'
+        },
+        header: 'Make your Marketing website',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        link: 'Read more'
+    },
+    {
+        img:'blog-2.jpg',
+        date: {
+            day: '01',
+            month: 'Mar',
+            year: '2019',
+            design: 'Design'
+        },
+        header: 'Make your Marketing website',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        link: 'Read more'
+    },
+    {
+        img:'blog-3.jpg',
+        date: {
+            day: '01',
+            month: 'Mar',
+            year: '2019',
+            design: 'Design'
+        },
+        header: 'Make your Marketing website',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        link: 'Read more'
+    }
+]
 
 //---------------------------GET IN TOUCH---------------------------
 
