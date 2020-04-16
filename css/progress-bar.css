@@ -1,0 +1,49 @@
+
+.col-6.skills > h3{
+font-size:  40px;
+}
+
+.progress-bar{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+    .progress-bar:last-of-type{
+        margin-bottom: 0;
+    }
+
+    .progress-bar > .texts{
+        display: inline-block;
+        width: 100%;  
+        margin-bottom: 10px; 
+    }
+        .progress-bar > .texts > .label{
+            display: inline-block;
+            float: left;
+            text-transform: capitalize;
+        }
+        .progress-bar > .texts > .value{
+            display: inline-block;
+            float: right;
+
+        }
+        .progress-bar > .bar{
+            display: inline-block;
+            background-color: #ddd;
+            width: 100%;
+            height: 4px;
+
+        }
+            .progress-bar > .bar > .value{
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+            }
+
+
+
+    @media ( max-width: 768px ){
+        .col-6.skills > h3{
+            font-size:  26px;
+            }
+    }
