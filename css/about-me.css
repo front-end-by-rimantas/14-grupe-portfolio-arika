@@ -5,7 +5,6 @@ img{
 .container >.row .aboutText{
     display: inline-block;
     width: 100%;
-    float: right;
     padding-top: 140px;
     padding-left: 20px;
 }
@@ -30,5 +29,5 @@ img{
     }
 }
 @media ( max-width: 768px ) {
-
+ 
 }
