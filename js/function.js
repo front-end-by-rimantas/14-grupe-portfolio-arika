@@ -36,7 +36,55 @@ function renderServices( serviceList ) {
 
 //---------------------------PROFESIONAL SKILLS---------------------------
 
+function progresBarsHtml(){
+    const HTML = ` 
+    <div class="progress-bar">
+        <div class="texts">
+            <div class="label">HTML5</div>
+            <div class="value">92%</div>
+        </div>
+        <div class="bar">
+            <div class="value" style="width: 92%;">
+                <div class="loading"></div>
+            </div>
+        </div>
+    </div>
+    <div class="progress-bar">
+        <div class="texts">
+            <div class="label">Word Press</div>
+            <div class="value">55%</div>
+        </div>
+        <div class="bar">
+            <div class="value" style="width: 55%;">
+                <div class="loading"></div>
+            </div>
+        </div>
+    </div>
+    <div class="progress-bar">
+            <div class="texts">
+                <div class="label">Magento</div>
+                <div class="value">86%</div>
+            </div>
+            <div class="bar">
+                <div class="value" style="width: 86%;">
+                    <div class="loading"></div>
+                </div>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <div class="texts">
+                <div class="label">UI/UX</div>
+                <div class="value">88%</div>
+            </div>
+            <div class="bar">
+                <div class="value" style="width: 88%;">
+                    <div class="loading"></div>
+                </div>
+            </div>
+        </div>`;
 
+    return document.querySelector('.col-6.skills').insertAdjacentHTML('beforeend', HTML);
+}
 
 
  //---------------------------MY TESTIMONIOLS---------------------------
