@@ -114,14 +114,14 @@ function renderBlogs (blogList) {
                     ${blogs.date.design}
                 </p>
                 <div>
-                    <a href="#">
-                        <h4>${blogs.header}</h4>
-                    <a/>
+                    <h4>
+                        <a class = "marketing" href="#">${blogs.header}</a>
+                    <h4/>
                     <p>${blogs.text}</p>
                 </div>
-                    <a href ="#">
-                        <p class="link">${blogs.link}<p/>
-                    </a>
+                    <p>
+                        <a class = "link" href ="#">${blogs.link}<a/>
+                    </p>
             </div>`;
 
 
