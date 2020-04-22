@@ -27,7 +27,6 @@
     --mar11: calc(var(--mar10) + var(--sg));
     --mar12: calc(var(--mar11) + var(--sg));
 }
-
 .container {
     display: inline-block;
     width: 100%;
@@ -98,8 +97,11 @@
 }
 @media ( max-width: 768px ) {
     :root {
-        --gap: 10px;
+        --gap: 0px;
         --mar2: 0px;
+    }
+    .container {
+        padding: 60px 0;
     }
     .container > .row {
         width: 100%;

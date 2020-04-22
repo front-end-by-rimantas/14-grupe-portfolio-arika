@@ -1,0 +1,43 @@
+.blocks {
+    display: inline-block;
+    width: 370px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+
+#foto:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#foto {
+    max-width: 100%;
+    display:block;
+    width: 370px;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    overflow: hidden;
+}
+
+.link {
+    color:  var(--color-button-red);
+    text-decoration: underline;
+    text-decoration-color:  var(--color-button-red);
+
+}
+
+.link:hover {
+    color: black;
+    text-decoration-color: black;
+}
+
+.marketing {
+    text-decoration: none;
+    color: black;
+}
+
+.marketing:hover {
+    color: var(--color-button-red)
+}

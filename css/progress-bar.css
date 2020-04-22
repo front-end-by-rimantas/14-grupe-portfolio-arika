@@ -1,0 +1,78 @@
+.col-6.skills {
+padding-right: 20px;
+}
+.col-6.skills > h3{
+font-size:  40px;
+}
+
+.col-6.skills > .progress-bar{
+    display: inline-block;
+    width: calc( 100%  - 20px );
+    margin-bottom: 20px;
+}
+    .progress-bar:last-of-type{
+        margin-bottom: 0;
+    }
+
+    .progress-bar > .texts{
+        display: inline-block;
+        width: 100%;  
+        margin-bottom: 10px; 
+    }
+        .progress-bar > .texts > .label{
+            display: inline-block;
+            float: left;
+            text-transform: capitalize;
+        }
+        .progress-bar > .texts > .value{
+            display: inline-block;
+            float: right;
+
+        }
+        .progress-bar > .bar{
+            display: inline-block;
+            background-color: #ddd;
+            width: 100%;
+            height: 6px;
+
+        }
+            .progress-bar > .bar > .value{
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+            }
+                .progress-bar > .bar > .value > .loading{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    background-color: var(--color-button-red);
+                    animation-name: loadingas;
+                    animation-duration: 3s;
+                    animation-iteration-count: 1;
+                    animation-timing-function: linear;
+                    animation-delay: 3s;
+                    animation-direction: normal;
+                    animation-play-state: running;
+                    animation-fill-mode: forwards;    
+                }
+                    @keyframes loadingas{
+                        0% {
+                           width: 0%;
+                        }
+                        100% {
+                            width: 100%;
+                        }
+                    }
+
+    @media ( max-width: 768px ){
+        .col-6.skills > h3{
+            font-size:  26px;
+            }
+        .col-6.skills > .progress-bar{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .col-6.skills {
+            padding-right: 0px;
+         }
+    }

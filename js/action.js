@@ -13,7 +13,7 @@
 
 //---------------------------MY SERVICES---------------------------
 
-renderServices( services )
+renderServices( services );
 
 
 //---------------------------LATEST WORKS---------------------------
@@ -22,7 +22,7 @@ renderServices( services )
 
 //---------------------------PROFESIONAL SKILLS---------------------------
 
-
+progresBarsHtml();
 
 
  //---------------------------MY TESTIMONIOLS---------------------------
@@ -32,7 +32,7 @@ renderServices( services )
 
 //---------------------------BLOGS---------------------------
 
-
+renderBlogs ( blogs );
 
 //---------------------------GET IN TOUCH---------------------------
 
