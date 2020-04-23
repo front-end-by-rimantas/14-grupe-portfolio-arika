@@ -1,0 +1,15 @@
+.row > #gallery{
+    display: grid;
+    gap: 0;
+    width: 100%;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-areas: "g1 g2 g3"
+                                        "g4 g5 g6"
+                                        "g7 g8 g9";
+}
+
+.row > #gallery > img{
+    grid-area: "g1", "g2", "g3","g4", "g5", "g6", "g7","g8", "g9";
+    width: 100%;
+    overflow: hidden;
+}
