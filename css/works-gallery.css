@@ -12,6 +12,11 @@
     grid-area: g1, g2, g3, g4, g5, g6, g7, g8, g9;
     width: 100%;
     overflow: hidden;
+    /* position: relative; */
+
+}
+.row > #gallery > img:hover {
+    cursor: pointer;
 }
 
 @media( max-width: 768px){
