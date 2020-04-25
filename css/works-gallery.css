@@ -7,17 +7,52 @@
                                         "g4 g5 g6"
                                         "g7 g8 g9";
 }
-
-.row > #gallery > img{
-    grid-area: g1, g2, g3, g4, g5, g6, g7, g8, g9;
-    width: 100%;
-    overflow: hidden;
-    /* position: relative; */
-
+#gallery > .gal-box{
+    position: relative;
 }
-.row > #gallery > img:hover {
-    cursor: pointer;
-}
+
+    #gallery > .gal-box > img{
+        grid-area: g1, g2, g3, g4, g5, g6, g7, g8, g9;
+        width: 100%;
+        overflow: hidden;
+    }
+   
+    #gallery > .gal-box >  .gal-bg{
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -50% , -50%) ;
+        width: 100%;
+        height: 100%;
+        padding-top: calc(50% - 70px);
+        text-align: center;
+        background-color: #444a;
+        font-size: 100px;
+        font-weight: 100;
+        color: #fff8;
+    }
+    #gallery > .gal-box > .gal-text{
+        display: none;
+        width: 100%;
+        background-color:     var(--color-button-red);
+        text-align: center;
+        height: 15%;
+        font-size: 26px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        color: #eeea;
+    }
+    #gallery > .gal-box:hover > .gal-bg{
+        display: inline-block;
+        cursor: pointer;
+    }
+    #gallery > .gal-box:hover > .gal-text{
+        display: inline-block;
+        cursor: pointer;
+    }
+
 
 @media( max-width: 768px){
     .row > #gallery{
