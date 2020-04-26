@@ -51,7 +51,7 @@ const services = [
 
 
 //---------------------------LATEST WORKS---------------------------
-
+const gallery = [ `portfolio-1.jpg`, `portfolio-2.jpg`, `portfolio-3.jpg`, `portfolio-4.jpg`, `portfolio-5.jpg`, `portfolio-6.jpg`, `portfolio-7.jpg`, `portfolio-8.jpg`, `portfolio-1.jpg`  ]
 
 
 //---------------------------PROFESIONAL SKILLS---------------------------

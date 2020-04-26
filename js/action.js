@@ -18,7 +18,7 @@ renderServices( services );
 
 //---------------------------LATEST WORKS---------------------------
 
-
+renderGalerry();
 
 //---------------------------PROFESIONAL SKILLS---------------------------
 

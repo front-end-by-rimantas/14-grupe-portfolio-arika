@@ -5,6 +5,7 @@
     right: 0;
     background-color: #000e;
     color: #fff;
+    z-index: 1;
 }
     #header .arika {
         color: white;
