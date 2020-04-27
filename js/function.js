@@ -32,6 +32,19 @@ function renderServices( serviceList ) {
 
 //---------------------------LATEST WORKS---------------------------
 
+function renderGalerry(){
+    let HTML = ``;
+    gallery.forEach(element => {
+        HTML+= `<div class="gal-box">
+                                    <img src="./img/${element}" alt="">
+                                    <div class="gal-bg">+</div>
+                                    <div class="gal-text">Our Photography</div>
+                            </div>`
+    });
+    document.querySelector("#gallery").innerHTML = HTML;
+
+}
+
 
 
 //---------------------------PROFESIONAL SKILLS---------------------------
